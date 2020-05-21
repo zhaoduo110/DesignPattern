@@ -9,7 +9,7 @@ class DB
     //第二步：私有构造方法禁止外部实例化对象
     private function __construct()
     {
-        self::$conn = mysqli_connect('localhost','root','');
+        self::$conn = mysqli_connect('localhost', 'root', '');
     }
     //第三步：防止对象被clone __clone方法私有化或者直接返回已有实例
     private function __clone()
@@ -29,5 +29,4 @@ class DB
         }
         return self::$conn;
     }
-
 }

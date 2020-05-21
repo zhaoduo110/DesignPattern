@@ -10,7 +10,8 @@ namespace App\Singleton;
  */
 class DB2 extends DB
 {
-    public static function getInstance(){
+    public static function getInstance()
+    {
         return parent::getInstance();
     }
 }

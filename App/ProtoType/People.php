@@ -3,7 +3,6 @@
 
 namespace App\ProtoType;
 
-
 class People implements Prototype
 {
 
@@ -13,7 +12,7 @@ class People implements Prototype
 
     public function __construct($name)
     {
-        $this->name=$name;
+        $this->name = $name;
     }
 
     public function getCompany()
@@ -51,5 +50,4 @@ class People implements Prototype
 //    {
 //        $this->company = clone $this->company;
 //    }
-
 }

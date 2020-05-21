@@ -9,7 +9,6 @@ require __DIR__ . '/../vendor/autoload.php';
 use App\ProtoType\People;
 use App\ProtoType\Company;
 
-
 /**
  * ======================================
  * ======================================
@@ -51,13 +50,13 @@ $person1->setCompany($company);
 
 $person2 = $person1->deepCopy();
 //两个对象的company没有指向一个
-var_dump($person1,$person2);
+var_dump($person1, $person2);
 
 //company这个对象修改了名字之后  只有person1的会会变  person2不会被影响
 $company->setName('种花家');
-var_dump($person1,$person2);
+var_dump($person1, $person2);
 
 //使用person对象操作改变属性实验一下  操作了person2 只有person2会变  person1不会被影响
 $person2Com = $person2->getCompany();
 $person2Com->setName('大中华');
-var_dump($person1,$person2);
+var_dump($person1, $person2);

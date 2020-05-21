@@ -3,7 +3,6 @@
 
 namespace App\Multiton;
 
-
 class Multiton
 {
 
@@ -48,6 +47,4 @@ class Multiton
         }
         return self::$instances[$instanceName];
     }
-
-
 }

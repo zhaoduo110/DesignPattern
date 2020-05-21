@@ -3,7 +3,6 @@
 
 namespace App\ProtoType;
 
-
 class Company
 {
     private $name;
@@ -12,5 +11,4 @@ class Company
     {
         $this->name = $name;
     }
-
 }
