@@ -1,6 +1,5 @@
 <?php
 
-
 namespace App\ProtoType;
 
 class Company

@@ -2,7 +2,8 @@
 
 namespace App\ProtoType;
 
-interface Prototype{
+interface Prototype
+{
     public function shallowCopy();
 
     public function deepCopy();

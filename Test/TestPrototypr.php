@@ -1,10 +1,8 @@
 <?php
 
-
 namespace Test;
 
 require __DIR__ . '/../vendor/autoload.php';
-
 
 use App\ProtoType\People;
 use App\ProtoType\Company;

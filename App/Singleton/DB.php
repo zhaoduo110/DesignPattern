@@ -1,4 +1,5 @@
 <?php
+
 namespace App\Singleton;
 
 class DB

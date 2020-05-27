@@ -1,6 +1,5 @@
 <?php
 
-
 namespace App\Multiton;
 
 class Multiton

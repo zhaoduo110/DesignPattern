@@ -1,8 +1,6 @@
 <?php
 
-
 namespace App\SimpleFactory;
-
 
 use App\SimpleFactory\Vehicle\Bicycle;
 use App\SimpleFactory\Vehicle\Car;
@@ -16,7 +14,7 @@ class Factory
 
     public static function create($carType)
     {
-        switch ($carType){
+        switch ($carType) {
             case 1:
                 $obj = new Bicycle();
                 break;
@@ -29,7 +27,4 @@ class Factory
         }
         return $obj;
     }
-
-
-
 }
